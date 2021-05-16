@@ -1,4 +1,4 @@
-# dsi202 project : Installation guide
+# Installation guide
 Represent by Quackkkkk
 
 1.Create a new directory for project
