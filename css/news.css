@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.box1  {
+    width: 100%;
+    background-image: url(/img/new/bg-new.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.col-left img {
+    width: 50%;
+    max-width: 50%; 
+    margin-top: 165px;
+    margin-left: 87px;
+}
+
+.col-right {
+    margin-left:40px ;
+    text-align: center;
+    margin-top: 300px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.btn-readon {
+    margin-top: 35px;
+    background-color: black; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #ffff;
+}  
+
+.news {
+    margin-left:0px ;
+    margin-top: 0px;
+}
+
+.section-area-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 10px;
+    margin: 20px 50px 10px 10px;
+    font-size: 16px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.section-grid-item {
+    text-align: center;
+    padding: 1.5%;
+}
+
+.section-item-img img{
+    width: 370px;
+    height: 379px;
+    overflow: hidden;
+    transition: 0.5s;
+} 
+
+.section-item-img img:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgb(0,0,0,.5);    
+}
