@@ -1,4 +1,4 @@
-# dsi202_final_project Installation guise
+# dsi202 project : Installation guide
 Represent by Quackkkkk
 
 1.Create a new directory for project
